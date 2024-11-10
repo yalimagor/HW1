@@ -1,0 +1,8 @@
+﻿  Part1Tester.cpp
+C:\Users\Cyber_User\Documents\Magshimim\C++\HW1\f\Part1Tester.cpp(18,10): warning C4005: 'PURPLE': macro redefinition
+      C:\Users\Cyber_User\Documents\Magshimim\C++\HW1\f\Part1Tester.cpp(12,10):
+      see previous definition of 'PURPLE'
+  
+  Queue.cpp
+  Generating Code...
+  f.vcxproj -> C:\Users\Cyber_User\Documents\Magshimim\C++\HW1\q2\x64\Debug\f.exe
