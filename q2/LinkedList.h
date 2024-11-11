@@ -6,7 +6,6 @@ struct Node
 	Node* next;
 };
 
-void prints(Node* head);
 void addNode(Node ** head, unsigned int num);
 void removeNode(Node** head);
 

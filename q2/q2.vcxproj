@@ -18,22 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="LinkedList.cpp" />
-    <ClCompile Include="main2.cpp" />
-    <ClCompile Include="Part2Tester.cpp" />
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="Utils.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="Stack.h" />
-    <ClInclude Include="Utils.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8a890a62-a1a0-43de-80e7-5862ee918251}</ProjectGuid>
+    <ProjectGuid>{c35be4d4-c06b-4080-82bf-bfb73cbc235d}</ProjectGuid>
     <RootNamespace>q2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -138,6 +126,18 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="main2.cpp" />
+    <ClCompile Include="Part2Tester.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Utils.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

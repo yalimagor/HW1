@@ -1,27 +1,32 @@
 #include "Utils.h"
+#include "Stack.h"
 #include <iostream>
 
 #define SIZE_ARR 10
 void reverse(int* nums, unsigned int size)
 {
-	int i = 0,temp = 0;
-	for (i = 0; i < size / 2; i++)
+	int i = 0;
+	Stack* s = new Stack;
+	initStack(s);
+	for (i = 0; i < size; i++)
 	{
-		temp = nums[i];
-		nums[i] = nums[size - i-1];
-		nums[size - 1-i] = temp;
+		push(s, nums[i]);
 	}
-
-
+	for (i = 0; i < size; i++)
+	{
+		nums[i] = pop(s);
+	}
+	
 }
 
 int* reverse10()
 {
 	int i = 0, *arr = new int [SIZE_ARR];
-	for (i = SIZE_ARR - 1; i >= 0; i--)
+	for (i = 0; i < SIZE_ARR; i++)
 	{
 		std::cout << "Enter an integer: ";
 		std::cin >> arr[i];
 	}
+	reverse(arr, SIZE_ARR);
 	return arr;
 }
